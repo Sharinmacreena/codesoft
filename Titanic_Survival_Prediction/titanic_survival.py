@@ -4,7 +4,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-data = pd.read_csv("train.csv")
+data = pd.read_csv("Titanic_Survival_Prediction/train.csv")
+
 
 # Select required columns
 data = data[["Pclass", "Sex", "Age", "Survived"]]
